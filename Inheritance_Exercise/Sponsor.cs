@@ -18,7 +18,7 @@ namespace Inheritance_Exercise
 			this.company = company;
 			this.hiredStudents = 0;
 		}
-		public Sponsor() : base("Jane Doe", 30, "female")
+		public Sponsor() : base()
 		{
 			this.company = "Google";
 			this.hiredStudents = 0;

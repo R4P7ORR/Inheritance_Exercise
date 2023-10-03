@@ -19,7 +19,7 @@ namespace Inheritance_Exercise
 			this.previousOrganization = previousOrganization;
 			skippedDays = 0;
 		}
-		public Student() : base("Jane Doe", 30, "female")
+		public Student() : base()
 		{
 			this.previousOrganization = "The School of Life";
 			this.skippedDays = 0;

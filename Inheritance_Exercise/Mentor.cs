@@ -16,7 +16,7 @@ namespace Inheritance_Exercise
 			this.gender = gender;
 			this.level = level;
 		}
-		public Mentor() : base("Jane Doe", 30, "female")
+		public Mentor() : base()
 		{
 			this.level = "intermediate";
 		}
